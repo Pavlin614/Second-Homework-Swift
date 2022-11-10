@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F3DAC7E829181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC7E729181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift */; };
-		F3DAC7EA29181E0600BF6AA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC7E929181E0600BF6AA3 /* ContentView.swift */; };
+		F3DAC7EA29181E0600BF6AA3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC7E929181E0600BF6AA3 /* LoginView.swift */; };
 		F3DAC7EC29181E0700BF6AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DAC7EB29181E0700BF6AA3 /* Assets.xcassets */; };
 		F3DAC7EF29181E0700BF6AA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DAC7EE29181E0700BF6AA3 /* Preview Assets.xcassets */; };
 		F3DAC7F929181E0700BF6AA3 /* Second_Homework_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC7F829181E0700BF6AA3 /* Second_Homework_SwiftUITests.swift */; };
 		F3DAC80329181E0700BF6AA3 /* Second_Homework_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC80229181E0700BF6AA3 /* Second_Homework_SwiftUIUITests.swift */; };
 		F3DAC80529181E0700BF6AA3 /* Second_Homework_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC80429181E0700BF6AA3 /* Second_Homework_SwiftUIUITestsLaunchTests.swift */; };
+		F3DAC812291AA01B00BF6AA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC811291AA01B00BF6AA3 /* HomeView.swift */; };
+		F3DAC814291AA20C00BF6AA3 /* Forgot Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC813291AA20C00BF6AA3 /* Forgot Password.swift */; };
+		F3DAC818291AA81B00BF6AA3 /* JoinNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC817291AA81B00BF6AA3 /* JoinNow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		F3DAC7E429181E0600BF6AA3 /* Second Homework SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Second Homework SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DAC7E729181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Homework_SwiftUIApp.swift; sourceTree = "<group>"; };
-		F3DAC7E929181E0600BF6AA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3DAC7E929181E0600BF6AA3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F3DAC7EB29181E0700BF6AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3DAC7EE29181E0700BF6AA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3DAC7F429181E0700BF6AA3 /* Second Homework SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second Homework SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		F3DAC7FE29181E0700BF6AA3 /* Second Homework SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second Homework SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DAC80229181E0700BF6AA3 /* Second_Homework_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Homework_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		F3DAC80429181E0700BF6AA3 /* Second_Homework_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Homework_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3DAC811291AA01B00BF6AA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F3DAC813291AA20C00BF6AA3 /* Forgot Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Forgot Password.swift"; sourceTree = "<group>"; };
+		F3DAC817291AA81B00BF6AA3 /* JoinNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinNow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				F3DAC7E729181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift */,
-				F3DAC7E929181E0600BF6AA3 /* ContentView.swift */,
+				F3DAC7E929181E0600BF6AA3 /* LoginView.swift */,
 				F3DAC7EB29181E0700BF6AA3 /* Assets.xcassets */,
 				F3DAC7ED29181E0700BF6AA3 /* Preview Content */,
+				F3DAC811291AA01B00BF6AA3 /* HomeView.swift */,
+				F3DAC813291AA20C00BF6AA3 /* Forgot Password.swift */,
+				F3DAC817291AA81B00BF6AA3 /* JoinNow.swift */,
 			);
 			path = "Second Homework SwiftUI";
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3DAC7EA29181E0600BF6AA3 /* ContentView.swift in Sources */,
+				F3DAC814291AA20C00BF6AA3 /* Forgot Password.swift in Sources */,
+				F3DAC818291AA81B00BF6AA3 /* JoinNow.swift in Sources */,
+				F3DAC812291AA01B00BF6AA3 /* HomeView.swift in Sources */,
+				F3DAC7EA29181E0600BF6AA3 /* LoginView.swift in Sources */,
 				F3DAC7E829181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
