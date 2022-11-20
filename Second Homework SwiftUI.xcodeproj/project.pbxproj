@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F399B68F29283F0300C01C30 /* SystemPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F399B68E29283F0300C01C30 /* SystemPreferencesView.swift */; };
+		F399B6912928D13C00C01C30 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F399B6902928D13C00C01C30 /* Models.swift */; };
 		F3DAC7E829181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC7E729181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift */; };
 		F3DAC7EA29181E0600BF6AA3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAC7E929181E0600BF6AA3 /* LoginView.swift */; };
 		F3DAC7EC29181E0700BF6AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DAC7EB29181E0700BF6AA3 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F399B68E29283F0300C01C30 /* SystemPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPreferencesView.swift; sourceTree = "<group>"; };
+		F399B6902928D13C00C01C30 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F3DAC7E429181E0600BF6AA3 /* Second Homework SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Second Homework SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DAC7E729181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Homework_SwiftUIApp.swift; sourceTree = "<group>"; };
 		F3DAC7E929181E0600BF6AA3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 				F3DAC811291AA01B00BF6AA3 /* HomeView.swift */,
 				F3DAC813291AA20C00BF6AA3 /* Forgot Password.swift */,
 				F3DAC817291AA81B00BF6AA3 /* JoinNow.swift */,
+				F399B68E29283F0300C01C30 /* SystemPreferencesView.swift */,
 			);
 			path = "Second Homework SwiftUI";
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F3DAC7EE29181E0700BF6AA3 /* Preview Assets.xcassets */,
+				F399B6902928D13C00C01C30 /* Models.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -268,9 +274,11 @@
 			files = (
 				F3DAC814291AA20C00BF6AA3 /* Forgot Password.swift in Sources */,
 				F3DAC818291AA81B00BF6AA3 /* JoinNow.swift in Sources */,
+				F399B68F29283F0300C01C30 /* SystemPreferencesView.swift in Sources */,
 				F3DAC812291AA01B00BF6AA3 /* HomeView.swift in Sources */,
 				F3DAC7EA29181E0600BF6AA3 /* LoginView.swift in Sources */,
 				F3DAC7E829181E0600BF6AA3 /* Second_Homework_SwiftUIApp.swift in Sources */,
+				F399B6912928D13C00C01C30 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
