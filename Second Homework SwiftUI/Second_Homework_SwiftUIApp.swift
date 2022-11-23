@@ -11,7 +11,7 @@ import SwiftUI
 struct Second_Homework_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            SystemPreferencesView()
         }
     }
 }
