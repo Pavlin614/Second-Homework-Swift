@@ -60,5 +60,3 @@ class SystemPreferences : ObservableObject {
         self.shortcuts = shortcuts
     }
 }
-
-
